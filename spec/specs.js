@@ -15,6 +15,6 @@ describe("Ticket", function() {
     expect(testTicket.firstRun).to.equal(true);
     expect(testTicket.senior).to.equal(false);
     expect(testTicket.matinee).to.equal(false);
-    expect(testTicket.price).to.equal(10);
+    expect(testTicket.ticketPrice()).to.equal(10);
   });
 });
