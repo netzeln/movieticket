@@ -1,3 +1,6 @@
+// PEER COMMENTS: Try and commit more frequently, aim for 6 or more (believe me, i get this every week from Courtney)
+// Code is easy to follow, looks nice. Listening and following with you guys today was inspiring because of how far you were reaching ie security blocks,
+// practing your looping, working on difficult concepts. Thanks! PS nice & thorough specs -Yvonna Contreras
 function Ticket (name,time) {
   this.name = name;
   this.time = time;
