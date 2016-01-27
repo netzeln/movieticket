@@ -31,9 +31,20 @@ Ticket.prototype.ticketPrice = function() {
 //   }
 //   this.price -= numOfDiscounts
 var price = 10
-return price -= this.discounts.length;
+if (this.senior === true) {
+price -= 1;
 }
 
+if (this.matinee === true) {
+price -= 1;
+}
+
+if (this.notFirstRun === true) {
+price -= 1;
+}
+
+
+return price;}
 var testTick = new Ticket();
 
 // function Ticket (name,time,discounts) {
